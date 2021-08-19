@@ -1,5 +1,9 @@
+C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\tests\AddToCarttest.java
+C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\utils\FakerUtils.java
+C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\tests\Navigationtest.java
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\base\BasePage.java
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\tests\MyFirstTestCase.java
+C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\api\actions\SignUpApi.java
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\Objects\BillingAddress.java
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\Objects\User.java
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\base\BaseTest.java
@@ -9,5 +13,7 @@ C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\utils\ConfigLoader.java
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\pages\CartPage.java
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\pages\HomePage.java
+C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\api\actions\AddCartApi.java
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\pages\StorePage.java
 C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\factory\DriverManager.java
+C:\diskE\FrameworkBestPractices\RetailAutomation\src\test\java\org\selenium\pom\tests\Searchtest.java

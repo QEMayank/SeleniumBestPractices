@@ -39,7 +39,7 @@ public class MyFirstTestCase extends BaseTest {
 //        billingAddress.setBillingAddressPostalCode("09090");
 //        billingAddress.setBillingAddressEmail("askmayank@naman.com");
         homePage=new HomePage(driver);
-        homePage.load();
+    //    homePage.load();
        StorePage storePage= homePage.clickStoreMenuLink();
        storePage.enterValueInSearchField("Blue");
        storePage.clickSubmitButton();
@@ -78,7 +78,7 @@ public class MyFirstTestCase extends BaseTest {
 //        billingAddress.setBillingAddressPostalCode("09090");
 //        billingAddress.setBillingAddressEmail("askmayank@naman.com");
         homePage=new HomePage(driver);
-        homePage.load();
+      //  homePage.load();
         StorePage storePage= homePage.clickStoreMenuLink();
         storePage.enterValueInSearchField("Blue");
         storePage.clickSubmitButton();

@@ -19,7 +19,7 @@ public class BaseTest {
     public void startDriver(@Optional String browser) {
         driver = new DriverManager().initialize(browser);
 //        driver.get("https://askomdch.com/");
-      //  driver.get(ConfigLoader.getInstance().getbaseURL());
+        driver.get(ConfigLoader.getInstance().getbaseURL());
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

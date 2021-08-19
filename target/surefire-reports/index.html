@@ -144,15 +144,14 @@
                   <a name="secondTestCases">
                   </a> <!-- secondTestCases -->
                   <span class="method-name">secondTestCases</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received&quot;}
-  (Session info: chrome=92.0.4515.131)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: .woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
 System info: host: &apos;WKWIN0100616&apos;, ip: &apos;192.168.43.86&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cbbb102d515e7afc17daac6d6475be4a, findElement {using=css selector, value=.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\kummayan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63315/devtoo..., se:cdpVersion: 92.0.4515.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cbbb102d515e7afc17daac6d6475be4a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [76407ec2-4828-4b5c-82c2-9ae1c1bbad34, findElement {using=css selector, value=.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210816143654, moz:debuggerAddress: localhost:56046, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 21808, moz:profile: C:\Users\kummayan\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:56046/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 76407ec2-4828-4b5c-82c2-9ae1c1bbad34
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -244,16 +243,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'secondTestCases')
 data.setCell(0, 2, 'org.selenium.pom.tests.MyFirstTestCase')
-data.setCell(0, 3, 15846);
+data.setCell(0, 3, 15390);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'driverTestcase')
 data.setCell(1, 2, 'org.selenium.pom.tests.MyFirstTestCase')
-data.setCell(1, 3, 11696);
+data.setCell(1, 3, 9767);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -281,30 +280,30 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">org.selenium.pom.tests.MyFirstTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">startDriver(chrome)</span>
+                <span class="method-name">startDriver(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">driverTestcase</span>
-                <span class="method-start">9338 ms</span>
+                <span class="method-start">10753 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">21036 ms</span>
+                <span class="method-start">20523 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">startDriver(chrome)</span>
-                <span class="method-start">21811 ms</span>
+                <span class="method-name">startDriver(firefox)</span>
+                <span class="method-start">22087 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">secondTestCases</span>
-                <span class="method-start">24473 ms</span>
+                <span class="method-start">29413 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">40326 ms</span>
+                <span class="method-start">44803 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
