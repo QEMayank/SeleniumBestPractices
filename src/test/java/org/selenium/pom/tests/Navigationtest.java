@@ -13,5 +13,6 @@ public class Navigationtest extends BaseTest {
      HomePage homePage=new HomePage(driver);
         homePage.load();
         StorePage storePage= homePage.clickStoreMenuLink();
+        System.out.println("Mayank running Jenkins");
     }
 }
